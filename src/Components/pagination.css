@@ -1,0 +1,27 @@
+@media only screen and (max-width: 450px) {
+    .pagination :not(.selective-pagination, .ppp) {
+        display: none;
+    }
+
+    .pagination:not(.selective-pagination, .ppp)::before {
+        content: "Page";
+    }
+}
+
+.pagination-div nav {
+    float: left;
+}
+
+/* .pagination:not(.ppp)::before {
+    content: "Page";
+    margin-top: 5px;
+    margin-right: 5px;
+} */
+
+.pagination-div text {
+    float: right;
+}
+
+.pagination-div text select {
+    margin-left: 5px;
+}
